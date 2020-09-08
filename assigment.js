@@ -53,7 +53,6 @@ function tinyFriend(friends){
  var tiny = friends[0];
  for(var i = 0; i < friends.length; i++){
      var currentName = friends[i];
-     var newV = tiny.length;
      if(currentName.length <  tiny.length){
          tiny = currentName;
      }
